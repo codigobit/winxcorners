@@ -14,8 +14,8 @@ function App() {
         <Menu.Item index="1"><Link to="/">Home</Link></Menu.Item>
         <Menu.Item index="2"><Link to="/changelog">Changelog</Link></Menu.Item>
       </Menu>
-      <Route path="/" exact component={Readme} />
-      <Route path="/changelog" component={Updates} />
+      <Route path="/winxcorners" exact component={Readme} />
+      <Route path="/winxcorners/changelog" component={Updates} />
     </Router>
   )
 }
