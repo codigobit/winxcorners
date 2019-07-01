@@ -1,0 +1,23 @@
+import { Button, Carousel, Input, Menu } from 'element-react'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import React, {useState} from 'react'
+
+import Readme from './Readme'
+import Updates from './Updates'
+
+import 'element-theme-default'
+
+function App() {
+  return (
+    <Router>
+      <Menu theme="light" defaultActive="1" mode="horizontal">
+        <Menu.Item index="1"><Link to="/">Home</Link></Menu.Item>
+        <Menu.Item index="2"><Link to="/changelog">Changelog</Link></Menu.Item>
+      </Menu>
+      <Route path="/" exact component={Readme} />
+      <Route path="/changelog" component={Updates} />
+    </Router>
+  )
+}
+
+export default App

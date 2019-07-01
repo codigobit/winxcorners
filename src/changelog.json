@@ -1,0 +1,88 @@
+{
+  "project": {
+    "github": "vhanla/winxcorners",
+    "repository": "https://github.com/vhanla/winxcorners"
+  },
+  "versions": [
+    {
+      "date": "2019-06-26T00:00:00.000Z",
+      "changes": [
+        {
+          "sha": "8d0e38c6c25a261ef55ceb9ef651566651ebbcd9",
+          "date": "2019-06-27T00:07:02.000Z",
+          "message": "Avoid registry exception on not found values"
+        },
+        {
+          "sha": "062e18de84fcce85e69b42dbe23ac03efd4cce33",
+          "date": "2019-06-26T22:38:47.000Z",
+          "message": "Fixed OSD creation before hotspot tries to interact with it causing Access Violation"
+        }
+      ]
+    },
+    {
+      "date": "2019-06-10T00:00:00.000Z",
+      "changes": [
+        {
+          "sha": "3b88fcf192d922dd9138ea262a2ea01567627b1d",
+          "date": "2019-06-10T21:16:00.000Z",
+          "message": "Fixed window resize on screen resolution change"
+        }
+      ]
+    },
+    {
+      "date": "2019-06-07T00:00:00.000Z",
+      "changes": [
+        {
+          "sha": "f5eeded75806bad40abbc8eb25f65eee77e2137f",
+          "date": "2019-06-07T19:25:51.000Z",
+          "message": "Updated about logo v1.2beta"
+        },
+        {
+          "sha": "6ce059074f5580dbe0ae12afbed76e8bf068a7fc",
+          "date": "2019-06-07T18:43:19.000Z",
+          "message": "Updated readme"
+        },
+        {
+          "sha": "18d9e5dbd91f236632368557d7a49635fb68193a",
+          "date": "2019-06-07T18:36:54.000Z",
+          "message": "Updated icon for light theme"
+        },
+        {
+          "sha": "3bf26d25309ca0ebf6d6227a32398336c4756b9f",
+          "date": "2019-06-07T18:29:32.000Z",
+          "message": "Improving popup positioning"
+        },
+        {
+          "sha": "b6a1cfc87f665ec1474dd2c18f33b15203f36a4f",
+          "date": "2019-06-07T17:03:38.000Z",
+          "message": "Improving System Light Theme detection"
+        }
+      ]
+    },
+    {
+      "date": "2019-06-06T00:00:00.000Z",
+      "changes": [
+        {
+          "sha": "619933e7d7c632c31a0f134788b23c3e615b2812",
+          "date": "2019-06-06T23:42:27.000Z",
+          "message": "Update Readme.md"
+        },
+        {
+          "sha": "97e467513afe17bd35e1597ef041ccc6adcc2e4d",
+          "date": "2019-06-06T23:40:41.000Z",
+          "message": "Update Readme.md"
+        },
+        {
+          "sha": "e0d7e58ce5a7eecfbd83fae39c46c18275b1d344",
+          "date": "2019-06-06T23:33:17.000Z",
+          "message": "Create LICENSE"
+        },
+        {
+          "sha": "9ca3dcf101f11a6d871edf2baae2df808df66acd",
+          "date": "2019-06-06T23:23:24.000Z",
+          "message": "Updated support for Windows 10 May 2019 Update Theme Light"
+        }
+      ]
+    }
+  ]
+}

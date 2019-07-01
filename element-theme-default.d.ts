@@ -1,0 +1,1 @@
+declare module 'element-theme-default'

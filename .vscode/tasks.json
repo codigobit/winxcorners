@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "start",
+      "problemMatcher": "$tsc-watch",
+      "isBackground": true,
+      "presentation": {
+        "reveal": "always"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": false
+      }
+    },
+    {
+      "type": "shell",
+      "label": "server",
+      "windows": {
+        "command": "node",
+        "args": [
+          "server.js"
+        ]
+      },
+      "group": "build",
+      "problemMatcher": []
+    }
+  ]
+}

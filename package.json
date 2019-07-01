@@ -1,0 +1,46 @@
+{
+  "name": "winxcorners",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/codigobit/winxcorners.git",
+  "author": "vhanla <vhanla@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "compile": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "@types/react": "^16.8.22",
+    "@types/react-dom": "^16.8.4",
+    "@types/react-redux": "^7.1.1",
+    "@types/react-router-dom": "^4.3.4",
+    "@varandas/fetch-readme": "^1.0.4",
+    "element-react": "^1.4.34",
+    "element-theme-default": "^1.4.13",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-markdown": "^4.1.0",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "connect": "^3.7.0",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "react-hot-loader": "^4.11.1",
+    "serve-static": "^1.14.1",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^6.0.4",
+    "tslint": "^5.18.0",
+    "tslint-react": "^4.0.0",
+    "typescript": "^3.5.2",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  }
+}
